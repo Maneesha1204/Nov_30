@@ -74,8 +74,12 @@ public class AccountServiceImpl implements AcccountService{
 		return num1+num2;
 	}
 	
-	
-	
+	@Override
+	public void myLoop(){
+		long sum=0;
+		for(int i=0;i<100000000;i++)
+			sum+=i;
+	}
 	
 	
 	
